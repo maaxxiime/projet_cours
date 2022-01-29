@@ -1,4 +1,64 @@
 body {
     margin: auto;
     padding: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.container_co {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 2px gray;
+    width: 400px;
+    height: 500px;
+}
+
+.container-collumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dflex_co {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.dflex_co button,
+.dflex_co input {
+    border-radius: 5px;
+    border: 1px solid blue;
+    box-shadow: 0 0 3px blue;
+}
+
+.form input{
+    border-radius: 5px;
+}
+
+.container-collumn h2 {
+    margin-top: 50px;
+}
+
+.dflex_input {
+    display: flex;
+}
+
+.dflex_input img {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.dflex_input input {
+    box-shadow: 0 0 3px black;
 }
