@@ -5,6 +5,10 @@ body {
     justify-content: center;
 }
 
+ul {
+    list-style: none;
+}
+
 .container_co {
     display: flex;
     justify-content: center;
@@ -14,6 +18,7 @@ body {
     box-shadow: 0 0 10px 2px gray;
     width: 400px;
     height: 500px;
+    
 }
 
 .container-collumn {
@@ -61,4 +66,129 @@ body {
 
 .dflex_input input {
     box-shadow: 0 0 3px black;
+}
+
+.global_todolist {
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 500px;
+    width: 50%;
+}
+
+.tittle_todolist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid black;
+    height: 50px;
+
+}
+
+.tittle_todolist h1 {
+    margin: 0;
+}
+
+.input_todolist {
+    display: flex;
+    align-items: center;
+    background-color: rgb(202, 202, 202);
+    height: 60px;
+    border-bottom: 2px solid black;
+}
+
+.input_todolist input {
+    height: 30px;
+    width: 350px;
+    margin-left: 10px;
+    margin-right: 30px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+}
+
+.input_todolist button {
+    height: 30px;
+    width: 100px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    box-shadow: 0 0 3px blue;
+}
+
+.dflex_evenly {
+    display: flex;
+    width: 400px;
+    justify-content: space-evenly;
+}
+
+#liste {
+    margin: 0;
+    padding: 0;
+}
+
+#liste li {
+    font-size: 18px;
+    margin-left: 0;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    background-color: white;
+    padding-left: 10px;
+}
+
+#liste li:nth-child(even) {            /*:nth-child(even) fait qu'un li sur deux à le bg color gris */
+    background-color: rgb(202, 202, 202);
+}
+
+
+
+
+
+@media screen and (max-width:900px) {
+    #liste li {
+        font-size: 13px;
+    }
+    .input_todolist input {
+        font-size: 13px;
+        width: auto;
+    }
+    .input_todolist button {
+        font-size: 13px;
+        width: auto;
+    }
+    .input_todolist {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    .dflex_evenly {
+        margin-top: 10px;
+        display: flex;
+        width: 400px;
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (max-width:500px) {
+    #liste li {
+        font-size: 10px;
+    }
+    .input_todolist input {
+        font-size: 10px;
+        width: auto;
+    }
+    .input_todolist button {
+        font-size: 10px;
+        width: auto;
+    }
+    .input_todolist {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    .dflex_evenly {
+        margin-top: 10px;
+        display: flex;
+        width: auto;
+        justify-content: space-evenly;
+    }
 }
