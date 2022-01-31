@@ -1,10 +1,80 @@
 body {
     margin: auto;
     padding: auto;
+    transition: 1s;
+
+}
+
+.dark{
+    /* background-color: rgb(75, 74, 74); */
+    background-color: rgb(63, 62, 62);
+    color: white;
+    transition: 1s;
+}
+.dark div.container_co{
+    border: 3px solid rgb(177, 176, 176);
+    box-shadow: 0 0 10px 2px rgb(194, 194, 194);
+    /* background-color: rgb(128, 126, 126); */
+    background-color: rgb(107, 105, 105);
+    transition: 1s;
+}
+
+.dark input {
+    border: rgb(202, 202, 202) 2px solid;
+    box-shadow: 0 0 3px rgb(192, 191, 191);
+    transition: 1s;
+}
+
+.dark .dflex_co input {
+    border: rgb(189, 189, 189) 2px solid;
+    box-shadow: 0 0 3px rgb(190, 190, 190);
+    background-color: rgb(104, 103, 103);
+    color: white;
+    transition: 1s;
+}
+
+.dark .dflex_co button {
+    border: rgb(187, 186, 186) 2px solid;
+    box-shadow: 0 0 3px rgb(197, 196, 196);
+    background-color: rgb(104, 103, 103);
+    color: white;
+    transition: 1s;
+}
+
+.dark .dflex_input input {
+    background-color: rgb(70, 69, 69);
+    color: white;
+    transition: 1s;
+}
+
+.contrast {
+    display: flex;
+    justify-content: center;
 }
 
 ul {
     list-style: none;
+}
+
+li {
+    position: relative;
+}
+
+span {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.5;
+    position: absolute;
+    left: 95%;
+}
+
+span:hover {
+    opacity: 1;
+    transition: 0.5s;
 }
 
 .navbar {
@@ -180,7 +250,12 @@ ul {
 
 
 
-
+@media screen and (max-width:1200px) {
+    span {
+        position: absolute;
+        left: 90%;
+    }
+}
 @media screen and (max-width:900px) {
     #liste li {
         font-size: 13px;
@@ -203,6 +278,10 @@ ul {
         display: flex;
         width: 400px;
         justify-content: space-evenly;
+    }
+    span {
+        position: absolute;
+        left: 86%;
     }
 }
 
@@ -228,5 +307,10 @@ ul {
         display: flex;
         width: auto;
         justify-content: space-evenly;
+    }
+
+    span {
+        position: absolute;
+        left: 83%;
     }
 }
