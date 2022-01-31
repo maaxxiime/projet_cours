@@ -22,18 +22,22 @@ body {
     margin: 70px;
     font-size: 20px;
 }
+.global {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
 
 #table {
     border: 3px solid black;
     border-radius: 20px;
-    margin-left: 160px;
-    /* border-collapse: collapse; */
+    width: 650px;
 }
 
 .bdr {
-    border-left: 3px solid;
     border-bottom: 3px solid;
-    padding: 10px;
+    font-size: 18px;
+    height: 40px;
 }
 
 .cards {
