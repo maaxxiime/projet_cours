@@ -1,0 +1,75 @@
+body {
+    margin: auto;
+    padding: auto;
+}
+
+.navbar {
+    border: 5px solid rgb(202, 202, 202);
+    background-color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    word-spacing: 10px;
+    margin: 70px;
+    font-size: 20px;
+}
+
+#table {
+    border: 3px solid black;
+    border-radius: 20px;
+    margin-left: 160px;
+    /* border-collapse: collapse; */
+}
+
+.bdr {
+    border-left: 3px solid;
+    border-bottom: 3px solid;
+    padding: 10px;
+}
+
+.cards {
+    border: 1px solid rgb(202, 202, 202);
+    background-color: rgb(202, 202, 202);
+    border-radius: 15px;
+    margin-top: 10px; /*a enlever a la fin*/
+    padding: 20px;
+    display: table-caption;
+    margin-left: 30px; /*a enlever a la fin*/
+    width: 250px;
+    height: 400px;
+}
+
+.flex-collumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.cards input {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    border: 1px solid rgb(202, 202, 202);
+}
+
+.cards button {
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 67px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid blue;
+    box-shadow: 0 0 3px blue;
+}
+
+.flex-collumn button:hover {
+    transform: scale(1.1);
+}
