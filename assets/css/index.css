@@ -7,6 +7,26 @@ ul {
     list-style: none;
 }
 
+.navbar {
+    border: 5px solid rgb(202, 202, 202);
+    background-color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    word-spacing: 10px;
+    margin: 70px;
+    font-size: 20px;
+}
+
 .global_co {
     display: flex;
     justify-content: center;
@@ -16,7 +36,7 @@ ul {
     display: flex;
     justify-content: center;
     margin: 100px;
-    border: 2px solid black;
+    border: 3px solid black;
     border-radius: 20px;
     box-shadow: 0 0 10px 2px gray;
     width: 400px;
@@ -50,6 +70,11 @@ ul {
     box-shadow: 0 0 3px blue;
 }
 
+.dflex_co button:hover,
+.dflex_co input:hover {
+    transform: scale(1.1);
+}
+
 .form input{
     border-radius: 5px;
 }
@@ -77,7 +102,8 @@ ul {
 }
 
 .global_todolist {
-    border: 2px solid black;
+    border: 3px solid black;
+    box-shadow: 0 0 10px 2px gray;
     border-radius: 20px;
     height: 500px;
     width: 50%;
@@ -126,6 +152,10 @@ ul {
     display: flex;
     width: 400px;
     justify-content: space-evenly;
+}
+
+.dflex_evenly button:hover {
+    transform: scale(1.1);
 }
 
 #liste {
