@@ -29,7 +29,6 @@ function add_3() {
 
     } else {
         document.getElementById("liste").appendChild(list);
-        liste.style.display = "block"
     }
     document.getElementById("inpt").value = "";
 
@@ -66,8 +65,6 @@ for (i = 0; i < del.length; i++) {
         console.log(div);
     }
 }
-
-
 
 
 function deconnexion() {

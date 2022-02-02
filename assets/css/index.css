@@ -1,13 +1,23 @@
 body {
     margin: auto;
     padding: auto;
+}
+
+.container-collumn h2,
+.form p {
+    transition: 2s;
+    color: black;
+}
+
+.dark .container-collumn h2,
+.dark .form p {
     transition: 1s;
+    color: white;
 }
 
 .dark{
     background-color: rgb(63, 62, 62);
     color: white;
-    transition: 1s;
 }
 .dark div.container_co{
     border: 3px solid rgb(177, 176, 176);
@@ -56,7 +66,6 @@ body {
     background-color: rgb(107, 105, 105);
     border: 3px solid rgb(177, 176, 176);
     box-shadow: 0 0 10px 2px rgb(194, 194, 194);
-    transition: 1s;
 }
 
 .dark .input_todolist {
@@ -67,12 +76,10 @@ body {
 
 .dark #liste li {
     background-color: rgb(63, 62, 62);
-    transition: 1s;
 }
 
 .dark #liste li:nth-child(even) {
     background-color: rgb(104, 103, 103);
-    transition: 1s;
 }
 
 .dark .dflex_evenly button {
@@ -91,7 +98,6 @@ body {
 
 .dark .tittle_todolist {
     border-bottom:  2px solid rgb(63, 62, 62);
-    transition: 1s;
 }
 
 .contrast {
@@ -105,6 +111,7 @@ body {
     border-radius: 10px;
     background-color: white;
     box-shadow: 0 0 3px black;
+    transition: 1s;
 }
 
 .contrast button:hover {
