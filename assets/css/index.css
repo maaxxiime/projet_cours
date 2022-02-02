@@ -328,6 +328,13 @@ span:hover {
         position: absolute;
         left: 90%;
     }
+    .navbar {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .navbar a {
+        margin: 0;
+    }
 }
 @media screen and (max-width:900px) {
     #liste li {
@@ -355,6 +362,25 @@ span:hover {
     span {
         position: absolute;
         left: 86%;
+    }
+    .navbar {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .navbar a {
+        margin: 0;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:750px){
+    .navbar {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    .navbar a {
+        margin: 10px;
+        font-size: 13px;
     }
 }
 
@@ -385,5 +411,16 @@ span:hover {
     span {
         position: absolute;
         left: 83%;
+    }
+    .navbar {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 10px;
+        width: 80%;
+    }
+    .navbar a {
+        margin: 5px;
+        font-size: 10px;
     }
 }
