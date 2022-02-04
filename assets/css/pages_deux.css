@@ -32,6 +32,8 @@ body {
     border: 3px solid black;
     border-radius: 20px;
     width: 650px;
+    height: 10px;
+    margin-top: 155px;
 }
 
 .bdr {
@@ -76,4 +78,10 @@ body {
 
 .flex-collumn button:hover {
     transform: scale(1.1);
+}
+
+tr {
+    margin: 20px 0 20px 0;
+    display: flex;
+    justify-content: space-evenly;
 }
