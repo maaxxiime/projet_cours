@@ -103,3 +103,7 @@ function dark() {
     element.classList.toggle("dark");
 }
 
+function deconnexion() {
+    alert("vous avez été déconnectée");
+    window.location.href = '/index.html'; //fait le lien vers une nouvelle page
+}

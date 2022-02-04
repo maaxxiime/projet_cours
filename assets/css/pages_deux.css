@@ -189,3 +189,8 @@ tr {
     border: rgb(187, 186, 186) 2px solid;
     box-shadow: 0 0 3px rgb(197, 196, 196);
 }
+
+.dark .navbar {
+    border: 3px solid rgb(177, 176, 176);
+    box-shadow: 0 0 10px 2px rgb(194, 194, 194);
+}
