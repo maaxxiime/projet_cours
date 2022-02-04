@@ -4,10 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <title>Connexion</title>
+    <!-- git add index.html  -->
+    <!-- git commit -m "nom de la maj" -->
+    <!-- git push -->
 </head>
 <body>
+
+    <div class="global_co">
+        <div class="container_co">
+            <div class="container-collumn">
+                <h2> Connexion </h2>
+    
+                <form class="form">
+    
+                    <p> Identifiant : </p>
+                    <div class="dflex_input">
+                        <img src="./assets/img/login.png" alt="">
+                        <input type="text" id="iduser" placeholder="Ex : papa">
+                    </div>
+    
+                    <p> Mot de passe : </p>
+                    <div class="dflex_input">
+                        <img src="./assets/img/cadenas.png" alt="">
+                        <input type="password" id="passworduser" placeholder="Ex : azerty">
+                    </div>
+    
+                    <div class="dflex_co">
+                        <input class="reset" type="reset" value="reset">
+                        <button onclick="connexion()"> Connexion </button>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="contrast">
+        <button onclick="dark()"> switch color </button>
+    </div>
+
+    <script src="./assets/js/index.js" defer></script>
+
     <p>Oui</p>
+
 
 </body>
 </html>
