@@ -97,3 +97,9 @@ for (i = 0; i < del.length; i++) {
         div.style.display = 'none';
     }
 }
+
+function dark() {
+    let element = document.body;
+    element.classList.toggle("dark");
+}
+

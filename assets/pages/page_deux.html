@@ -12,7 +12,7 @@
     <nav class="navbar" id="nav">
         <a href="#">Acceuil</a>
         <a href="#">Gestion Administrateur</a>
-        <a href="#">Deconnexion</a>
+        <a onclick="deconnexion()" href="#">Deconnexion</a>
     </nav>
 
     <div class="global">
@@ -24,7 +24,7 @@
                 <th class="bdr">Sexe</th>
                 <th class="bdr">Prescripteur</th>
             </tr>
-            <tr id="tr">
+            <tr id="tr" class="bb">
                 <td id="tbe"></td>
             </tr>
             <tr id="tr">
@@ -43,6 +43,10 @@
                 <button id="button" onclick="myCard()">Envoyer</button>
             </div>
         </div>
+    </div>
+
+    <div class="contrast">
+        <button onclick="dark()"> switch color </button>
     </div>
     
     <script src="../js/pages_deux.js"></script>
