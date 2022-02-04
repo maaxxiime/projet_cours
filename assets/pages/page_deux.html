@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pages_deux</title>
+    <link rel="stylesheet" href="../css/pages_deux.css">
+</head>
+
+<body>
+    <nav class="navbar" id="nav">
+        <a href="#">Acceuil</a>
+        <a href="#">Gestion Administrateur</a>
+        <a onclick="deconnexion()" href="#">Deconnexion</a>
+    </nav>
+
+    <div class="global">
+        <table id="table">
+            <tr>
+                <th class="bdr">Nom</th>
+                <th class="bdr">Prénom</th>
+                <th class="bdr">Date de naissance</th>
+                <th class="bdr">Sexe</th>
+                <th class="bdr">Prescripteur</th>
+            </tr>
+            <tr id="tr" class="bb">
+                <td id="tbe"></td>
+            </tr>
+            <tr id="tr">
+                <td></td>
+            </tr>
+        
+        </table>
+    
+        <div class="cards">
+            <div class="flex-collumn">
+                <input type="text" placeholder="Nom" id="nom">
+                <input type="text" placeholder="Prénom" id="name">
+                <input type="date" placeholder="Date de naissance" id="date">
+                <input type="text" placeholder="Sexe" id="sexe">
+                <input type="text" placeholder="Prescripteur" id="prescripteur">
+                <button id="button" onclick="myCard()">Envoyer</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="contrast">
+        <button onclick="dark()"> switch color </button>
+    </div>
+    
+    <script src="../js/pages_deux.js"></script>
+</body>
+
+</html>
