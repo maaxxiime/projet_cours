@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>Todolist</title>
+</head>
+<body>
+    
+    <nav class="navbar" id="nav">
+        <a href="#">Acceuil</a>
+        <a href="#">Gestion Administrateur</a>
+        <a onclick="deconnexion()" href="#">Deconnexion</a>
+    </nav>
+
+    <div class="global_center">
+        <div class="global_todolist">
+            <div class="tittle_todolist">
+                <h1> Todolist </h1>
+            </div>
+            
+            <div class="input_todolist">
+                <input type="text" placeholder="Ex : Nourrir le chat" id="inpt">
+                <div class="dflex_evenly">
+                    <button onclick="add_3()"> Ajouter </button>
+                    <button onclick="delete_3()"> supprimer </button>
+                </div>
+            </div>
+    
+            <div class="ul_todolist">
+                <ul id="liste">
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="contrast">
+        <button onclick="dark()"> switch color </button>
+    </div>
+    <script src="../js/index.js"defer></script>
+</body>
+</html>
